@@ -24,7 +24,7 @@ In the first graph the values of two temperature sensors are plotted and in the 
 
 If no more data is received, the read data are finally written to a text file and saved:
 
-![Messwerte in Text-Datei](/textDatei.png){ width=50% }
+![Messwerte in Text-Datei](/textDatei.png)
 
 ## Serial Communication in Matlab 
 First create a serial port object "serialObject" and associate it with the serial port. Before you can read data, "serialObject" must be connected to the device with the fopen function: 

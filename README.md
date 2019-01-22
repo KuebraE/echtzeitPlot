@@ -18,13 +18,13 @@ the values of two temperature sensors, the weight, the status of the heater, the
  
 Subsequently, the script in Matlab can be executed, which generates the following figure with 4 graphs:
 
-![Matlab-Figur](https://github.com/KuebraE/echtzeitPlot/blob/master/praktikum.png)
+![Matlab-Figur](/praktikum.png){ width=50% }
 
 In the first graph the values of two temperature sensors are plotted and in the second graph the values of the scale are plotted. In addition, the third graph shows the heater status and the status of the board. The last graph shows the heating power. 
 
 If no more data is received, the read data are finally written to a text file and saved:
 
-![Messwerte in Text-Datei](/textDatei.png)
+![Messwerte in Text-Datei](/textDatei.png){ width=50% }
 
 ## Serial Communication in Matlab 
 First create a serial port object "serialObject" and associate it with the serial port. Before you can read data, "serialObject" must be connected to the device with the fopen function: 

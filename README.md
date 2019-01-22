@@ -18,7 +18,7 @@ the values of two temperature sensors, the weight, the status of the heater, the
  
 Subsequently, the script in Matlab can be executed, which generates the following figure with 4 graphs:
 
-![Matlab-Figur](/praktikum.png){ width=50% }
+![Matlab-Figur](/praktikum.png)
 
 In the first graph the values of two temperature sensors are plotted and in the second graph the values of the scale are plotted. In addition, the third graph shows the heater status and the status of the board. The last graph shows the heating power. 
 
